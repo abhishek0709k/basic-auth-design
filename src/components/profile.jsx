@@ -12,7 +12,7 @@ function Profile() {
       try {
         const token = localStorage.getItem("token");
         const response = await axios.get(
-          "https://basic-auth-backend-kbst.onrender.com/api/profile",
+          "https://basic-auth-backend-1.onrender.com/api/profile",
           {
             headers: {
               Authorization: `Bearer ${token}`,

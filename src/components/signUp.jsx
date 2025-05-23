@@ -18,7 +18,7 @@ function SignUp() {
     e.preventDefault();
     try {
       const response = await axios.post(
-        "https://basic-auth-backend-kbst.onrender.com/api/signup",
+        "https://basic-auth-backend-1.onrender.com/api/signup",
         formData
       );
       if (response.data.success) {
