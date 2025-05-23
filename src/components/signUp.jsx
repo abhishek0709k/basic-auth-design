@@ -17,7 +17,7 @@ function SignUp() {
   const handleSubmit = async(e)=>{
     e.preventDefault()
     try {
-      const response = await axios.post("http://localhost:3000/api/signup", formData);
+      const response = await axios.post("https://basic-auth-backend-kbst.onrender.com/api/signup", formData);
       if(response.data.success){
         navigate("/profile")
       }
